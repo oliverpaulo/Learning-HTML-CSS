@@ -1,110 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-
-@font-face {
-	font-family: 'ThirstyScriptBold';src: url('ThirstyScriptBold.eot');src: url('ThirstyScriptBold.eot?#iefix') format('embedded-opentype'),url('ThirstyScriptBold.woff') format('woff'),url('ThirstyScriptBold.ttf') format('truetype');
+body{
+	background-color: #EEEE;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-*{
-	box-sizing: border-box;
-	font-family: Raleway;
-	color: #777;
+a{
+	text-decoration: none;
+	color: red;
 }
 
-html, body{
-	margin:  0;
+h1{
+	margin: 0;
+}
+
+#container{
+	background-color: white;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	background-color: #66CCFF;
+	color: white;
+	text-align: center;
+}
+
+#container{
+	padding: 10px;
+}
+
+#nav{
+	width: 180px;
+	float: left;
+}
+
+#nav li{
+	list-style-type: none;
 	padding: 0;
 }
 
-.nav ul {
-	margin: 0;
-}
-
-.nav li{
-	display: inline;
-}
-
-.nav a {
-	display: inline-block ;
-	padding: .5em;
-	color: black;
-	text-decoration: none;
-}
-
-.main-nav {
-	text-align: center;
-	font-size: 1.1em;
-	font-weight: bolder;
-	border-bottom: 2px solid; color: black;
-}
-
-.main-nav li {
-	padding:  0 2.5%;
-}
-
-.nav a:hover{
-	background-color: rgba(255, 255, 255, .3);
-}
-
-.main-header{
-	background-color: rgba(0, 0, 0, .6);
-	background-image: url(rainbow.webp);
-	background-blend-mode: multiply;
-	background-size: cover;
-	padding-bottom: 30px;
-}
-
-.band-name{
-	text-align: center;
-	margin: 0;
-	font-size: 4em;
-	font-family: "Dancing Script";
-	font-weight: bolder;
-	color: deeppink;
-}
-
-.band-name-large{
-	font-size: 10em;
-}
-
-.content-section{
-	margin: 1em;
-}
-
-.container{
-	max-width: 900px;
-	margin: 0 auto;
-	padding: 0 1.5em;
-}
-
-.section-header{
-	font-family: "Dancing Script";
+#nav.selected{
 	font-weight: bold;
-	color: black;
-	text-align: center;
-	font-size: 2.5em;
 }
 
-.about-band-image{
-	float: left;
-	height: 250px;
-	width: 400px;
-	margin: 15px;
+#main{
+	width: 600px;
+	float: right;
 }
 
-.main-footer{
-	background-color: grey;
-	color:  floralwhite;
-	padding: .15em 0;
-}
-
-.main-footer-container{
-	display: flex;
-	text-align: center;
+#footer{
+	clear: both;
+	padding: 10x;
+	background-color: #999999;
+	text-align: right;
+	padding: 10px;
 
 }
 
-.main-footer-container ul {
-	flex-grow: 5;
-	text-align: end;
-}
+ 
